@@ -8,7 +8,6 @@ QRShared.Items = {
 	['carrot']		= {['name'] = 'carrot',		['label'] = 'Carrot',		['weight'] = 100,	['type'] = 'item',	['image'] = 'carrot.png',		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'product from farming'},
 	["sugar"]		= {["name"] = "sugar",		["label"] = "Sugar",		["weight"] = 100,	["type"] = "item",	["image"] = "sugar.png",		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "product from farming"},
 	["boatticket"]	= {["name"] = "boatticket",	["label"] = "Boat Ticket",	["weight"] = 0,		["type"] = "item",	["image"] = "boatticket.png",	['unique'] = false,	['useable'] = false,['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "used for boat travel"},
-	['shovel']		= {['name'] = 'shovel',		['label'] = 'Shovel',		['weight'] = 100,	['type'] = 'item',	['image'] = 'shovel.png',		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'equipment for digging'},
 
 	-- petshop
 	['foxhound']		= {['name'] = 'foxhound',		['label'] = 'Fox Hound',		['weight'] = 500,	['type'] = 'item',	['image'] = 'animal_dog_americanfoxhound.png',		['unique'] = true,		['useable'] = true,		['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'American Foxhound'},
@@ -39,6 +38,19 @@ QRShared.Items = {
 	['goldbar']			= {['name'] = 'goldbar',		['label'] = 'Gold Bar',			['weight'] = 500,	['type'] = 'item',	['image'] = 'goldbar.png',		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'solid gold bar'},
 	['goldwatch']		= {['name'] = 'goldwatch',		['label'] = 'Gold Watch',		['weight'] = 100,	['type'] = 'item',	['image'] = 'goldwatch.png',	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'solid gold watch'},
 	['lockpick']		= {['name'] = 'lockpick',		['label'] = 'Lockpick',			['weight'] = 100,	['type'] = 'item',	['image'] = 'lockpick.png',		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'for picking locks'},
+
+	-- bpos
+	['bposhovel']	= {['name'] = 'bposhovel',	['label'] = 'BPO Shovel',	['weight'] = 0,		['type'] = 'item',	['image'] = 'bposhovel.png',	['unique'] = true,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'blueprint original'},
+	-- bpcs
+	['bpcshovel']	= {['name'] = 'bpcshovel',	['label'] = 'BPC Shovel',	['weight'] = 0,		['type'] = 'item',	['image'] = 'bpcshovel.png',	['unique'] = true,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = '3 x Steel 1 x Wood'},
+	-- item
+	["shovel"]		= {["name"] = "shovel",		["label"] = "Shovel",		["weight"] = 100,	["type"] = "item",	["image"] = "shovel.png",		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "equipment for digging"},
+	-- materials
+	["copper"]		= {["name"] = "copper",		["label"] = "Copper",		["weight"] = 100,	["type"] = "item",	["image"] = "copper.png",		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "crafting material"},
+	["aluminum"]	= {["name"] = "aluminum",	["label"] = "Aluminum",		["weight"] = 100,	["type"] = "item",	["image"] = "aluminum.png",		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "crafting material"},
+	["iron"]		= {["name"] = "iron",		["label"] = "Iron",			["weight"] = 100,	["type"] = "item",	["image"] = "iron.png",			['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "crafting material"},
+	["steel"]		= {["name"] = "steel",		["label"] = "Steel",		["weight"] = 100,	["type"] = "item",	["image"] = "steel.png",		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "crafting material"},
+	["wood"]		= {["name"] = "wood",		["label"] = "Wood",			["weight"] = 100,	["type"] = "item",	["image"] = "wood.png",			['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "crafting material"},
 
 	--ammo
 	['ammo_repeater']	= {['name'] = 'ammo_repeater',	['label'] = 'Repeater (N)',	['weight'] = 200,	['type'] = 'item',	['image'] = 'ammo_bullet_normal.png',	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'Repeater Ammo'},
