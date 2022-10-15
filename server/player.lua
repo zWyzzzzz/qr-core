@@ -94,6 +94,7 @@ function QRCore.Player.CheckPlayerData(source, PlayerData)
 	PlayerData.charinfo.account = PlayerData.charinfo.account or QRCore.Functions.CreateAccountNumber()
 	-- Metadata
 	PlayerData.metadata = PlayerData.metadata or {}
+	PlayerData.metadata['house'] = PlayerData.metadata['house'] or 'none'
 	PlayerData.metadata["hunger"] = PlayerData.metadata["hunger"] or 100
 	PlayerData.metadata["thirst"] = PlayerData.metadata["thirst"] or 100
 	PlayerData.metadata["stress"] = PlayerData.metadata["stress"] or 0
