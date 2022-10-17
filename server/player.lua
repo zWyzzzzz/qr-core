@@ -90,6 +90,7 @@ function QRCore.Player.CheckPlayerData(source, PlayerData)
 	PlayerData.charinfo.gender = PlayerData.charinfo.gender or 0
 	PlayerData.charinfo.backstory = PlayerData.charinfo.backstory or "placeholder backstory"
 	PlayerData.charinfo.nationality = PlayerData.charinfo.nationality or "USA"
+	PlayerData.charinfo.telegram = PlayerData.charinfo.telegram or QRCore.Functions.CreateTelegramNumber()
 	PlayerData.charinfo.phone = PlayerData.charinfo.phone or QRCore.Functions.CreatePhoneNumber()
 	PlayerData.charinfo.account = PlayerData.charinfo.account or QRCore.Functions.CreateAccountNumber()
 	-- Metadata
