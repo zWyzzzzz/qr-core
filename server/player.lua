@@ -933,6 +933,24 @@ function QRCore.Functions.CreateAccountNumber()
 	return AccountNumber
 end
 
+function QRCore.Functions.CreateTelegramNumber()
+	local UniqueFound = false
+	local TelegramNumber = nil
+	while not UniqueFound do
+		TelegramNumber = "US"
+			.. math.random(1, 9)
+			.. math.random(1, 9)
+			.. math.random(1, 9)
+			.. math.random(1, 9)
+		local query = "%" .. TelegramNumber .. "%"
+		local result = MySQL.prepare.await("SELECT COUNT(*) as count FROM players WHERE charinfo LIKE ?", { query })
+		if result == 0 then
+			UniqueFound = true
+		end
+	end
+	return TelegramNumber
+end
+
 function QRCore.Functions.CreatePhoneNumber()
 	local UniqueFound = false
 	local PhoneNumber = nil
