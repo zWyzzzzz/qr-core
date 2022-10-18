@@ -4,10 +4,6 @@
 RegisterNetEvent('QRCore:Client:OnPlayerLoaded', function()
     ShutdownLoadingScreenNui()
     LocalPlayer.state:set('isLoggedIn', true, false)
-    if QRConfig.EnablePVP then
-        Citizen.InvokeNative(0xF808475FA571D823, true)
-        SetRelationshipBetweenGroups(5, `PLAYER`, `PLAYER`)
-    end
     if QRConfig.Player.RevealMap then
 		SetMinimapHideFow(true)
 	end
