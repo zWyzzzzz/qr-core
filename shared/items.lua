@@ -8,6 +8,7 @@ QRShared.Items = {
 	['carrot']		= {['name'] = 'carrot',		['label'] = 'Carrot',		['weight'] = 100,	['type'] = 'item',	['image'] = 'carrot.png',		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'product from farming'},
 	["sugar"]		= {["name"] = "sugar",		["label"] = "Sugar",		["weight"] = 100,	["type"] = "item",	["image"] = "sugar.png",		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "product from farming"},
 	["boatticket"]	= {["name"] = "boatticket",	["label"] = "Boat Ticket",	["weight"] = 0,		["type"] = "item",	["image"] = "boatticket.png",	['unique'] = false,	['useable'] = false,['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "used for boat travel"},
+	["raw_meat"]	= {["name"] = "raw_meat",	["label"] = "Raw Meat",		["weight"] = 300,	["type"] = "item",	["image"] = "raw_meat.png",		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "ready for cooking"},
 
 	-- petshop
 	['foxhound']		= {['name'] = 'foxhound',		['label'] = 'Fox Hound',		['weight'] = 500,	['type'] = 'item',	['image'] = 'animal_dog_americanfoxhound.png',		['unique'] = true,		['useable'] = true,		['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'American Foxhound'},
