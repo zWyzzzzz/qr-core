@@ -781,18 +781,15 @@ end
 -- Delete character
 
 local playertables = { -- Add tables as needed
+	{ table = "bank_accounts" },
+	{ table = "bank_cards" },
+	{ table = "bank_statements" },
 	{ table = "players" },
-	-- { table = 'apartments' },
-	-- { table = 'bank_accounts' },
-	-- { table = 'crypto_transactions' },
-	-- { table = 'phone_invoices' },
-	-- { table = 'phone_messages' },
-	-- { table = 'playerskins' },
 	{ table = "player_contacts" },
-	-- { table = 'player_houses' },
-	-- { table = 'player_mails' },
-	{ table = "outfits" },
-	-- { table = 'player_vehicles' }
+	{ table = "playerclothe" },
+	{ table = "playerskins" },
+	{ table = "playeroutfit" },
+	{ table = 'player_vehicles' }
 }
 
 function QRCore.Player.DeleteCharacter(source, citizenid)
