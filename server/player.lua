@@ -791,7 +791,8 @@ local playertables = { -- Add tables as needed
 	{ table = "playerclothe" },
 	{ table = "playerskins" },
 	{ table = "playeroutfit" },
-	{ table = 'player_vehicles' }
+	{ table = 'player_vehicles' },
+	{ table = 'telegrams' }
 }
 
 function QRCore.Player.DeleteCharacter(source, citizenid)
