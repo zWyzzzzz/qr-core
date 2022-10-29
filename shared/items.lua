@@ -9,6 +9,7 @@ QRShared.Items = {
 	["sugar"]		= {["name"] = "sugar",		["label"] = "Sugar",		["weight"] = 100,	["type"] = "item",	["image"] = "sugar.png",		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "product from farming"},
 	["boatticket"]	= {["name"] = "boatticket",	["label"] = "Boat Ticket",	["weight"] = 0,		["type"] = "item",	["image"] = "boatticket.png",	['unique'] = false,	['useable'] = false,['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "used for boat travel"},
 	["raw_meat"]	= {["name"] = "raw_meat",	["label"] = "Raw Meat",		["weight"] = 300,	["type"] = "item",	["image"] = "raw_meat.png",		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "ready for cooking"},
+	['canoe']		= {['name'] = 'canoe',		['label'] = 'Canoe',		['weight'] = 500,	['type'] = 'item',	['image'] = 'canoe.png',		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'deployable canoe'},
 
 	-- fish
 	['a_c_fishbluegil_01_ms']				= {['name'] = 'a_c_fishbluegil_01_ms',			['label'] = 'Blue Gil (M)',				['weight'] = 600,	['type'] = 'item',	['image'] = 'provision_fish_bluegill.png',				['unique'] = true,		['useable'] = true,		['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'used for fishing'},
