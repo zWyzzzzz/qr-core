@@ -182,4 +182,7 @@ QRShared.Items = {
 	-- kit
 	['weapon_kit_metal_detector']  				= {['name'] = 'weapon_kit_metal_detector',  			['attachPoint'] = 11,  		['label'] = 'Metal Detector',  					['weight'] = 100,  	['type'] = 'weapon',  		['ammotype'] = nil,  						['image'] = 'weapon_kit_metal_detector.png',    			['unique'] = true,		['useable'] = true,		['level'] = 0,		['description'] = 'Placeholder'},
 	['weapon_fishingrod']						= {['name'] = 'weapon_fishingrod',						['attachPoint'] = 13,		['label'] = 'Fishingrod',						['weight'] = 500,	['type'] = 'weapon',		['ammotype'] = nil,							['image'] = 'weapon_fishingrod.png',						['unique'] = true,		['useable'] = true,		['level'] = 0,		['description'] = 'Fishingrod'},
+	['weapon_kit_binoculars']  					= {['name'] = 'weapon_kit_binoculars',  				['attachPoint'] = 11,  		['label'] = 'Binoculars',  						['weight'] = 100,  	['type'] = 'weapon',  		['ammotype'] = nil,  						['image'] = 'weapon_kit_binoculars.png',    				['unique'] = true,		['useable'] = true,		['level'] = 0,		['description'] = 'Placeholder'},
+	['weapon_kit_binoculars_improved']  		= {['name'] = 'weapon_kit_binoculars_improved',  		['attachPoint'] = 11,  		['label'] = 'Binoculars Improved',				['weight'] = 100,  	['type'] = 'weapon',  		['ammotype'] = nil,  						['image'] = 'weapon_kit_binoculars_improved.png',    		['unique'] = true,		['useable'] = true,		['level'] = 0,		['description'] = 'Placeholder'},
+
 }
