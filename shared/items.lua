@@ -15,6 +15,7 @@ QRShared.Items = {
 	['whiskey']		= {['name'] = 'whiskey',	['label'] = 'Whiskey',		['weight'] = 500,	['type'] = 'item',	['image'] = 'whiskey.png',		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil, 	['level'] = 0,	['description'] = 'bottle of whiskey'},
 	['coffee']		= {['name'] = 'coffee',		['label'] = 'Coffee',		['weight'] = 500,	['type'] = 'item',	['image'] = 'coffee.png',		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil, 	['level'] = 0,	['description'] = 'cup of coffee'},
 	['bandage']		= {['name'] = 'bandage',	['label'] = 'Bandage',		['weight'] = 10,	['type'] = 'item',	['image'] = 'bandage.png',		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'used to improve your health'},
+	['sugarcube']	= {['name'] = 'sugarcube',	['label'] = 'Sugar Cube',	['weight'] = 10,	['type'] = 'item',	['image'] = 'sugarcube.png',	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'your horse may like these'},
 
 	-- fish
 	['a_c_fishbluegil_01_ms']				= {['name'] = 'a_c_fishbluegil_01_ms',			['label'] = 'Blue Gil (M)',				['weight'] = 600,	['type'] = 'item',	['image'] = 'provision_fish_bluegill.png',				['unique'] = true,		['useable'] = true,		['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'used for fishing'},
