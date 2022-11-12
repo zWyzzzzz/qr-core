@@ -18,6 +18,12 @@ QRShared.Items = {
 	['sugarcube']		= {['name'] = 'sugarcube',		['label'] = 'Sugar Cube',		['weight'] = 10,	['type'] = 'item',	['image'] = 'sugarcube.png',	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'your horse may like these'},
 	['horselantern']	= {['name'] = 'horselantern',	['label'] = 'Horse Lantern',	['weight'] = 500,	['type'] = 'item',	['image'] = 'horselantern.png',	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'horses need headlights!'},
 
+	-- gold prospecting
+	["goldpan"]			= {["name"] = "goldpan",		["label"] = "Gold Pan",			["weight"] = 100,	["type"] = "item",	["image"] = "goldpan.png",		['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "equipment for gold panning"},
+	["smallnugget"]		= {["name"] = "smallnugget",	["label"] = "Small Nugget",		["weight"] = 100,	["type"] = "item",	["image"] = "smallnugget.png",	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "small gold nugget"},
+	["mediumnugget"]	= {["name"] = "mediumnugget",	["label"] = "Medium Nugget",	["weight"] = 200,	["type"] = "item",	["image"] = "mediumnugget.png",	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "medium gold nugget"},
+	["largenugget"]		= {["name"] = "largenugget",	["label"] = "Large Nugget",		["weight"] = 300,	["type"] = "item",	["image"] = "largenugget.png",	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "large gold nugget"},
+
 	-- fish
 	['a_c_fishbluegil_01_ms']				= {['name'] = 'a_c_fishbluegil_01_ms',			['label'] = 'Blue Gil (M)',				['weight'] = 600,	['type'] = 'item',	['image'] = 'provision_fish_bluegill.png',				['unique'] = true,		['useable'] = true,		['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'used for fishing'},
 	['a_c_fishbluegil_01_sm']				= {['name'] = 'a_c_fishbluegil_01_sm',			['label'] = 'Blue Gil (S)',				['weight'] = 300,	['type'] = 'item',	['image'] = 'provision_fish_bluegill.png',				['unique'] = true,		['useable'] = true,		['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	['description'] = 'used for fishing'},
